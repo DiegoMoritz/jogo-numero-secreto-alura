@@ -4,7 +4,7 @@
 // paragrafo.innerHTML = 'Escolha um número entre 1 e 10';
 
 let listaDeNumerosSorteados = [];
-let limiteNumeros = 10;
+let limiteNumeros = 100;
 let numeroAleatorio = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -16,7 +16,7 @@ function exibirTexto (tag, texto) {
 
 function exibirTextoInicial() {
     exibirTexto('h1', 'Jogo do número secreto');
-    exibirTexto('p', 'Escolha um número entre 1 e 10');
+    exibirTexto('p', `Escolha um número entre 1 e ${limiteNumeros}`);
 }
 
 exibirTextoInicial();
