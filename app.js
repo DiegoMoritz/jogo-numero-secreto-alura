@@ -15,7 +15,7 @@ function exibirTexto (tag, texto) {
 }
 
 function exibirTextoInicial() {
-    exibirTexto('h1', 'Jogo do número secreto');
+    exibirTexto('h1', 'Jogo do Número Secreto');
     exibirTexto('p', `Escolha um número entre 1 e ${limiteNumeros}`);
 }
 
